@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% extends 'CarApp/home.html' %}
+{% load static %}
+{% block content %}
+    <marquee behavior="scroll" direction="right">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS15IbbCCJovw1e2xRkeQFfuiEXY4VnHCnd2g&usqp=CAU" width="30%" height="100" alt="Natural" />
+    <img src="https://images.livemint.com/img/2021/08/09/1600x900/mahindra_1628501497567_1628501505019.jpg" width="30%" height="100" alt="Mahindra">
+    <img src="https://besthqwallpapers.com/Uploads/3-7-2019/99098/tata-glitter-logo-cars-brands-creative-blue-metal-background-tata-logo.jpg" width="30%" height="100" alt="Tata">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUpOLaUKyfaDVvhKV46ic2Qbb2EbDNuOJZA&usqp=CAU" width="30%" height="100" alt="Suzuki">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeIp9ojwGo9DLFMdaxzgY-ISgwPrzyheD8A&usqp=CAU" width="30%" height="100" alt="Toyota" />
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7kSVx1tDUVsqxxgDq-e1I5d4p9tRmlrRbw&usqp=CAU" width="30%" height="100" alt="RollsRoyce" />
+    </marquee>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="div4">
+            <h2>Customer Registeration Form</h2>
+            <hr/>
+            <form method="post">
+                {{ form.as_p }}
+                {% csrf_token %}
+                <a href="/thank/"><button id="btn1" type="submit">Register</button></a>
+            </form>
+
+        </div>
+    </div>
+{% endblock %}

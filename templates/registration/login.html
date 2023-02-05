@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/car.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UY Car Services</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<body id="body1">
+    <div align="center" class="login">
+        <h2>Login</h2>
+        <hr id="hr1">
+        <form style="font-weight: bold" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <a href="/mech1/"><button>Login</button></a>  |
+            <a href="/signup/"><button type="button">Register</button></a>  |
+            <a href="/home/"><button type="button">Back</button></a>
+        </form>
+    </div>
+{% endblock %}
+</body>

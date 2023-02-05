@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'CarApp/home1.html' %}
+{% load static %}
+{% comment %}{% block content %}{% endcomment %}
+<div id="div6">
+
+    <h1> Customer-Details</h1>
+    <ul>
+        <h2><li>Customer-Name {{ cust_name |upper }} </li></h2>
+        <h2><li>Customer-Address:  {{ company.location|title }}</li></h2>
+        <h2><li>Customer -carNumber: {{ company.ceo|title }}</li></h2>
+        <a href="/companies/">List of companies</a> <br/><br/>
+        <a href="/create/">Create new data</a><br/><br/>
+    </ul>
+</div>

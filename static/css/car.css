@@ -1,0 +1,146 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0xeQkiPPVlMjbYR_xcx0hK9ktLd4l6hiGw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div1{
+    border: 2px solid lightgreen;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyzB88z1HJvquz1GSlNeU88s6g2XrINbSbw&usqp=CAU");
+    font-size: 16px;
+    color: whitesmoke;
+}
+#div2{
+    border: 2px solid blue;
+    alignment: center;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px ;
+    text-align: center;
+    margin-top: 10px;
+}
+#div3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: "Georgia";
+}
+#myCarousel{
+    width: 60%;
+    height: 10%;
+    alignment: center;
+    margin-left: 265px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+footer{
+
+    width: 100%;
+    text-align: center;
+    border: 4px solid gray;
+    background-color: grey;
+    color: black;
+    font-weight: bolder;
+    font-family: "Times New Roman";
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin{
+    background: darkblue;
+    color: white;
+}
+.fa-whatsapp{
+    background: lightgreen;
+    color: white;
+}
+.fa-envelope{
+    background: white;
+    color: red;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn2{
+    background: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 650px;
+}
+#btn2:hover {
+    border: 2px solid grey;
+    background-color: rosybrown;
+    color: white;
+}
+#div4{
+    text-align: center;
+    alignment: center;
+    width: 50%;
+    margin-left: 200px;
+}
+form{
+    margin-top: 90px;
+}
+#div5{
+    text-align: center;
+}
+#btn1{
+    color: black;
+    background-color:burlywood ;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+#btn1:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: lightsteelblue;
+}
+#body3 {
+    background-image: url("https://rare-gallery.com/uploads/posts/125321-ferrari-250-testa-rossa-garage-guitars-spacex-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glyphicon-log-out{
+    text-align: right;
+}
+button{
+    background: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 650px;
+}
